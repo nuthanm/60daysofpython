@@ -83,3 +83,95 @@ Option 2: No, we can use {} blocks
 
 Option 3: Both options should work
 -----------------------------------------------------------------------------------------
+
+Question 9: I want output like below  using while loop?
+['nani', 'arav']
+
+Option 1: (Correct Answer)
+i = 0
+todos = []
+while i<=1:
+    todo = input(user_input)
+    todos.append(todo)
+    i = i + 1
+
+print(todos)
+
+Option 2:
+i = 0
+todos = []
+while i<=1:
+    todo = input(user_input)
+    todos.add(todo)
+    i = i + 1
+
+print(todos)
+
+Option 3:
+i = 0
+todos = []
+while i<=1:
+    todo = input(user_input)
+    todos.append(todo)
+    i++
+
+print(todos)
+-----------------------------------------------------------------------------------------
+
+Question 10: How to acheive the following result?
+Input: nani
+output: nani
+
+Option 1: "nani".Capitalize()
+Option 2: "nani".capitalize() - (Correct Answer)
+Option 3: "nani".ToCapitalize()
+Option 4: "nani".tocapitalize()
+Option 5: "nani".toCapitalize()
+-----------------------------------------------------------------------------------------
+
+Question 11: What is the recommended number of white space characters used for indentation?
+
+Option 1: 1
+Option 2: 3
+Option 3: 4 (Correct Answer)
+Option 4: 5
+-----------------------------------------------------------------------------------------
+
+Question 12: Which of the following would return an error if you were to run the code?
+
+Option 1: while True:
+           print("hi")
+
+Option 2: while 2>1:
+           print("hi")
+
+Option 3: while true              => Correct Answer
+           print("hi")
+
+Option 4: No errors
+
+-----------------------------------------------------------------------------------------
+Question 13: How do we comment a single line?
+
+Option 1: Use ~
+
+Option 2: Use # (Correct Answer)
+
+Option 3: Use //
+
+Option 4: Use --
+-----------------------------------------------------------------------------------------
+
+Question 14: How do we comment multi line(s)?
+
+Option 1: /* .... */
+
+Option 2: ~~~     ~~~
+
+Option 3: '''     '''           => (Correct Answer)
+
+Option 4: ##
+
+-----------------------------------------------------------------------------------------
+
+Question 15: 
