@@ -7,6 +7,8 @@ Option 2: text
 
 Option 3: object
 
+-----------------------------------------------------------------------------------------
+
 Question 2: Please find what is the error in the following input and choose correct answer
 input: 'nani want's to become an actor'
 
@@ -20,6 +22,8 @@ Option 4: 1 & 2
 
 Option 5: 2 & 3 (Correct Answer)
 
+-----------------------------------------------------------------------------------------
+
 Question 3: Input value: What is the Data type 
 todos =[]
 
@@ -31,6 +35,8 @@ Option 3: Both 1 & 2
 
 Option 4: None of the above
 
+-----------------------------------------------------------------------------------------
+
 Question 4: What will be the output?
 name = "nani"
 name = "nuthan"
@@ -41,3 +47,15 @@ Option 1: throws an error
 Option 2: print nuthan (Correct Answer)
 
 Option 3: print nani
+
+-----------------------------------------------------------------------------------------
+Question 5: What will be the output?
+Input: assign a value to a variable called "person name"
+person name = "nani"
+print(person name)
+
+Option 1: nani
+
+Option 2: error throw
+
+-----------------------------------------------------------------------------------------
