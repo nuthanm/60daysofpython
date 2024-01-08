@@ -59,3 +59,27 @@ Option 1: nani
 Option 2: error throw
 
 -----------------------------------------------------------------------------------------
+Question 6: What is the supported boolean value?
+
+Option 1: True (Correct Answer)
+
+Option 2: true
+
+Option 3: TRUE
+
+-----------------------------------------------------------------------------------------
+Question 7: Phyton is case-sensitve language?
+
+Option 1: Yes (Correct Answer)
+
+Option 2: No
+
+-----------------------------------------------------------------------------------------
+Question 8: Indentation is the only way in python to format the code?
+
+Option 1: Yes (Correct Answer)
+
+Option 2: No, we can use {} blocks
+
+Option 3: Both options should work
+-----------------------------------------------------------------------------------------
