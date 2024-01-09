@@ -1,3 +1,6 @@
 Error 1: NameError: name 'true' is not defined. Did you mean: 'True'?
 Solution: True, because true is not support in Python as a boolean type
 ------------------------------------------------------------------------
+Error 2: ModuleNotFoundError: No module named 'flask'
+Solution: Install flask in the project root location
+------------------------------------------------------------------------
