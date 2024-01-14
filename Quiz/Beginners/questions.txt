@@ -196,3 +196,54 @@ Option 2: d    - (Correct Answer - Sequence of characters to display)
           a
 Option 3: throw an error 
 -----------------------------------------------------------------------------------------
+Question 17: You should write a match-case block that checks the value of the country variable:
+Prints out Hello if the value of country is "USA".
+Prints out Namaste if the value of country is "India".
+Prints out Hallo if the value of country is "Germany".
+
+Answer:
+country = "India"
+
+match country:
+    case "USA":
+        print("Hello")
+    case "India":
+        print("Namaste")
+    case "Germany":
+        print("Hallo")
+
+-----------------------------------------------------------------------------------------
+Question 18: What is the wrong in the following program?
+Input:
+for i in actions:
+    print(i.capitalize())
+ 
+actions = ["cancel", "reply", "submit"]
+
+Option 1: doesn't matter of order in python
+
+Option 2: declaration of buttons should be in first
+-----------------------------------------------------------------------------------------
+Question 19: What is the wrong in the following program?
+Input:
+actions = ["cancel", "reply", "submit"]
+ 
+for i in actions:
+print(i.capitalize())
+
+Provide a text field to enter it 
+-----------------------------------------------------------------------------------------
+Question 20: How many errors in the following program?
+
+Input:
+for item in ["cancel", "ok", "delete"):
+print(item.capitalize)
+
+Option 1: 2
+
+Option 2: 1
+
+Option 3: 3 (Correct answer)
+
+Option 4: 0
+-----------------------------------------------------------------------------------------
