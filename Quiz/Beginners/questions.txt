@@ -183,4 +183,16 @@ Option 1: string (Correct Answer)
 Option 2: int
 
 -----------------------------------------------------------------------------------------
+Question 16: What is the output for the following program?
 
+Input: for item in 'data':
+           print(item)
+
+Option 1: data
+
+Option 2: d    - (Correct Answer - Sequence of characters to display)
+          a
+          t
+          a
+Option 3: throw an error 
+-----------------------------------------------------------------------------------------
