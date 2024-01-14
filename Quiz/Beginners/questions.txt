@@ -247,3 +247,39 @@ Option 3: 3 (Correct answer)
 
 Option 4: 0
 -----------------------------------------------------------------------------------------
+Question 21: Print index of the input name from the defined list.
+Input: 
+ranking = ['John', 'Sen', 'Lisa']
+
+Option 1:  (Correct Answer)
+person = input("Enter a name: ")
+print(ranking.index(person) + 1)
+
+Option 2:
+
+person = input("Enter a name: ")
+print(ranking.index(person))
+
+Option 3:
+
+person = input("Enter a name: ")
+print(ranking[person] + 1)
+
+Option 4:
+
+person = input("Enter a name: ")
+print(ranking.[person] + 1)
+
+-----------------------------------------------------------------------------------------
+Question 22: What is the output of the following program?
+Input:
+elements = ['a', 'b', 'c']
+print(elements(1))
+
+Option 1: 'a'
+
+Option 2: 'b'
+
+Option 3: error (Correct Answer)
+-----------------------------------------------------------------------------------------
+Question 23:

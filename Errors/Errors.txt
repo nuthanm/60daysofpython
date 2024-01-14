@@ -4,3 +4,9 @@ Solution: True, because true is not support in Python as a boolean type
 Error 2: ModuleNotFoundError: No module named 'flask'
 Solution: Install flask in the project root location
 ------------------------------------------------------------------------
+Error 3: todos[index] = editText
+    ~~~~~^^^^^^^
+TypeError: list indices must be integers or slices, not str
+Solution: Parse your input to integer using int()
+Ex: user_input = int(input("Enter your number? ))
+------------------------------------------------------------------------

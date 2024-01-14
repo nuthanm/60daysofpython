@@ -7,12 +7,16 @@ todos = []
 
 
 while True:
-    user_action = input("Todo App: add, show or exit : ")
+    user_action = input("Todo App: add, edit, show or exit : ")
     user_action = user_action.strip() # similar like trim() in c#
     match user_action:
         case "add": 
             user_input = input("Add a new todo item: ")
             todos.append(user_input)
+        case "edit" | 'edit' : # both pattern works
+            index = int(input("Which item do you want to edit? : "))
+            editText = input("Enter your updated text: ")
+            todos[index] = editText
         case "show":
             for todo in todos:
                 print(todo)
