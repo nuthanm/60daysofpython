@@ -1,0 +1,54 @@
+Question 1: What is the output of this program?
+Input:
+todos = []
+
+while True:
+    user_input = input("Add your todo item: ")
+    todos.append(user_input)
+    file = open('todos.txt','w')
+    file.writelines(todos)
+
+Output items : clean, learn, shopping
+How these items are stored in the file?
+
+Option 1: clean
+          learn
+          shopping
+
+Option 2: cleanlearnshopping (Correct Answer)
+
+Option 3: clean learn shopping
+
+Option 4: Both 1 and 2 
+----------------------------------------------------------------------------------------
+Question 2: How to achieve this output in a file?
+
+clean
+learn
+shopping
+
+Program is:
+todos = []
+
+while True:
+    user_input = input("Add your todo item: ") + "\n"
+    todos.append(user_input)
+    file = open('todos.txt','w')
+    file.writelines(todos)
+----------------------------------------------------------------------------------------
+Question 3: How to achieve this output in a file?
+
+1.clean
+2.learn
+3.shopping
+
+Answer for this output:
+todos = []
+
+while True:
+    user_input = input("Add your todo item: ") + "\n"
+    todos.append(f"{len(todos) + 1}.{user_input}")
+    file = open('todos.txt','w')
+    file.writelines(todos)
+----------------------------------------------------------------------------------------
+Question 4: 

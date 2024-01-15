@@ -26,3 +26,27 @@ TypeError: 'builtin_function_or_method' object is not iterable
 
 Solution: We should use sort() instead of sort
 ------------------------------------------------------------------------
+Error 6:
+ todos.pop(todos[user_input_delete_index - 1])
+TypeError: 'str' object cannot be interpreted as an integer
+
+Solution:
+ todos.pop(user_input_delete_index - 1)
+ ------------------------------------------------------------------------
+ Error 7:
+  count = todos.count()
+            ^^^^^^^^^^^^^
+TypeError: list.count() takes exactly one argument (0 given)
+
+Solution: When you use count() we should give one argument
+Ex: list = [1,2,3,4,2]
+   list.count(2) => Meaning is number of times this 2 is available in list.
+------------------------------------------------------------------------   
+
+Error 8:
+todos.append(f"{count - 1}.{user_input}")
+                    ~~~~~~^~~
+TypeError: unsupported operand type(s) for -: 'builtin_function_or_method' and 'int'
+
+Solution: If we fix error 7 then this one solves automatically
+------------------------------------------------------------------------
