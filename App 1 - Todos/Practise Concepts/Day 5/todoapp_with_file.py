@@ -1,10 +1,14 @@
 # Storing data in file app
 
 # Create a new todos empty list array
-todos = []
-
+# todos = [] - reading existing data in todos.txt file and assign it to todos
+file = open('todos.txt', 'r')
+todos = file.readlines()
+file.close()
+           
 # Create a file object
-file = open('todos.txt','w')
+# file = open('todos.txt','w')
+
 # Until you break the loop this will ask you to choose the action
 while True:
     user_action = input("Todo App - Please select your action: add, edit, complete, show or exit: ")
@@ -12,9 +16,11 @@ while True:
     match user_action:
         case "add":
             user_input = input("Add your todo item: ") + "\n"
-            todos.append(f"{len(todos) + 1}.{user_input}")
+            todos.append(user_input)
+            #todos.append(f"{len(todos) + 1}.{user_input}")
             file = open('todos.txt','w')
             file.writelines(todos)
+            file.close()
         case "edit":
             user_input_index = int(input("Which item you want to modify? "))
             updated_text = input("Please enter updated item: ")

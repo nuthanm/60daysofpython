@@ -50,3 +50,11 @@ TypeError: unsupported operand type(s) for -: 'builtin_function_or_method' and '
 
 Solution: If we fix error 7 then this one solves automatically
 ------------------------------------------------------------------------
+Error 9:
+file = open("D:\Git Repos\60daysofpython\App 1 - Todos\Practise Concepts\Day 5\todos.txt",'r')
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Git Repos0daysofpython\\App 1 - Todos\\Practise Concepts\\Day 5\todos.txt'
+
+Solution: put r before this path so it consider everything is a normal character.
+file = open(r"D:\Git Repos\60daysofpython\App 1 - Todos\Practise Concepts\Day 5\todos.txt",'r')
+In c# we use @ before the path
+------------------------------------------------------------------------
