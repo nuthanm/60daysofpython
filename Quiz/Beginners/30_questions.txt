@@ -334,7 +334,7 @@ for index, item in enumerate(waiting_list):
     print(f"{index + 1}.{item.capitalize()}")
 
 -----------------------------------------------------------------------------------------
-Question 26: Write a program and print the expected output?
+Question 27: Write a program and print the expected output?
 #input
 waiting_list = ['nani','arav','sobha','arjun']
 
@@ -350,4 +350,42 @@ waiting_list = ['nani','arav','sobha','arjun']
 waiting_list.sort(reverse=True)
 for index, item in enumerate(waiting_list):
     print(f"{index + 1}.{item.capitalize()}")
+-----------------------------------------------------------------------------------------
+Question 28: We have a list of three strings defined in the below.
+filenames = ['document', 'report', 'presentation']
+
+Expected output:
+0-Document.txt
+1-Report.txt
+2-Presentation.txt
+
+Correct Answer:
+filenames = ['document', 'report', 'presentation']
+for index, fileName in enumerate(filenames):
+    print(f"{index}-{fileName.capitalize()}.txt")
+    
+-----------------------------------------------------------------------------------------
+Question 29: Remove this 1.45 from the list?
+seconds = [1.23, 1.45, 1.02, 1.11]
+
+Option 1: seconds.pop(1)
+
+Option 2: seconds.pop(-3)
+
+Option 3: seconds.pop(2)
+
+Option 4: Both 1 and 2
+-----------------------------------------------------------------------------------------
+Question 30: Find an error from the following program?
+
+Input:
+menu = ["dosa", "vada", "idly"]
+ 
+user_choice = input("Enter the index of the item: ")
+ 
+message = f"You chose {menu[user_choice]}."
+print(message)
+
+Correct Answer: Error thrown becase no parsing after reading the input
+user_choice = int(input("Enter the index of the item: "))
 -----------------------------------------------------------------------------------------
