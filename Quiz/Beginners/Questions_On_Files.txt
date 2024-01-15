@@ -51,4 +51,91 @@ while True:
     file = open('todos.txt','w')
     file.writelines(todos)
 ----------------------------------------------------------------------------------------
-Question 4: 
+Question 4: Write a program to acheive this expected output?
+Input:
+contents = ["firstfile","secondfile","thirdfile"]
+filenames = ["file1.txt","file2.txt","file3.txt"]
+
+Expected output: 
+file1.txt => firstfile
+file2.txt => secondfile
+file3.txt => thirdfile
+
+Final Program:
+contents = ["firstfile","secondfile","thirdfile"]
+filenames = ["file1.txt","file2.txt","file3.txt"]
+
+#Traditional approach
+for content in contents:
+    for fileName in filenames:
+        file = open(fileName, 'w')
+        file.writelines(content)
+        filenames.pop(0)
+        break
+
+#using function approach
+for content, fileName in zip(contents, filenames):
+    file = open(fileName, 'w')
+    file.writelines(content)
+    file.close()
+
+----------------------------------------------------------------------------------------
+Question 5: Which of the code snippets below will modify the data.txt file?
+
+Option 1: file = open('todo.txt','w')
+          file.write('content')
+          file.close()
+
+Option 2: file = open('todo.txt','r')
+          file.read()
+          file.close()
+
+----------------------------------------------------------------------------------------
+Question 6: What would be the content of the logs.txt file after running the code below?
+
+file = open('logs.txt', 'w')
+file.write('123')
+file.write('456')
+file.close()
+
+Option 1: 123
+          456
+
+Option 2: 123456 (Correct Answer)
+
+Option 3: 456
+----------------------------------------------------------------------------------------
+Question 7: What will be the content of logs.txt this time?
+
+file = open('logs.txt', 'w')
+file.write('123')
+file.close()
+ 
+file = open('logs.txt', 'w')
+file.write('456')
+file.close()
+
+
+Option 1: 123
+          456
+
+Option 2: 123456
+
+Option 3: 456 (Correct Answer)
+----------------------------------------------------------------------------------------
+Question 8: How to convert each word first letter to be in uppercase
+Statement: i love python 
+
+Approach 1: 
+file = open('essay.txt','r')
+words = file.readlines()
+for word in words:
+    print(word.title())
+
+Approach 2:
+file = open('essay.txt','r')
+print(file.read().title())
+----------------------------------------------------------------------------------------
+
+
+
