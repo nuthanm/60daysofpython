@@ -282,4 +282,24 @@ Option 2: 'b'
 
 Option 3: error (Correct Answer)
 -----------------------------------------------------------------------------------------
-Question 23:
+Question 23: Which option is the correct one to match with given output?
+Output: Hello, my name is nani :) and age is 29
+Here nani and age are variables.
+
+Option 1: print("Hello, my name is {name} :) and age is {age}")
+
+Option 1: print(f"Hello, my name is {name} :) and age is {age}") (Correct Answer)
+
+Option 1: print(f"Hello, my name is [name] :) and age is [age]")
+
+-----------------------------------------------------------------------------------------
+Question 24: When we use enumerate and what details we get in the code?
+
+Option 1: To get both index and item (Correct Answer)
+
+Option 2: To get only index
+
+Option 3: To get only item
+
+-----------------------------------------------------------------------------------------
+Question 25: 
