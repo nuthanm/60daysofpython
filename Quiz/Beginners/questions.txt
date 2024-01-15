@@ -302,4 +302,16 @@ Option 2: To get only index
 Option 3: To get only item
 
 -----------------------------------------------------------------------------------------
-Question 25: 
+Question 25: How to add and remove items in list array ?
+todos = []
+Items to add in todos are : clean, shopping, learn
+Remove shopping from todos after complete
+
+Option 1: append() and pop() - (Correct Answer)
+
+Option 2: add() and delete()
+
+Option 3: insert() and delete()
+
+Option 4: append() and delete()
+-----------------------------------------------------------------------------------------
