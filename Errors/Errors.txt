@@ -10,3 +10,19 @@ TypeError: list indices must be integers or slices, not str
 Solution: Parse your input to integer using int()
 Ex: user_input = int(input("Enter your number? ))
 ------------------------------------------------------------------------
+Error 4:     
+for index, item in enumerate(waiting_list):
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not iterable
+
+Solution: no need to assign back to variable.
+apply sort and then access that list variable in loop
+Note: sort() method sorts the items in ascending order and returns none.
+------------------------------------------------------------------------
+Error 5:
+for index, item in enumerate(waiting_list.sort):
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'builtin_function_or_method' object is not iterable
+
+Solution: We should use sort() instead of sort
+------------------------------------------------------------------------

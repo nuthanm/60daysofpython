@@ -315,3 +315,39 @@ Option 3: insert() and delete()
 
 Option 4: append() and delete()
 -----------------------------------------------------------------------------------------
+Question 26: Write a program and print the expected output?
+#input
+waiting_list = ['nani','arav','sobha','arjun']
+
+#Expected output
+'''
+1.Arav
+2.Arjun
+3.Nani
+4.Sobha
+'''
+
+Correct Answer:
+waiting_list = ['nani','arav','sobha','arjun']
+waiting_list.sort()
+for index, item in enumerate(waiting_list):
+    print(f"{index + 1}.{item.capitalize()}")
+
+-----------------------------------------------------------------------------------------
+Question 26: Write a program and print the expected output?
+#input
+waiting_list = ['nani','arav','sobha','arjun']
+
+#Expected output
+'''
+1.Sobha
+2.Nani
+3.Arjun
+4.Arav
+'''
+Correct Answer:
+waiting_list = ['nani','arav','sobha','arjun']
+waiting_list.sort(reverse=True)
+for index, item in enumerate(waiting_list):
+    print(f"{index + 1}.{item.capitalize()}")
+-----------------------------------------------------------------------------------------
