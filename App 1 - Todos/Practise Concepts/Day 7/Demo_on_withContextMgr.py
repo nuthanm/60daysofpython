@@ -50,9 +50,12 @@ while True:
                 print(f"{index + 1}.{item.capitalize()}")
         case "complete":
             user_input_delete_index = int(input("Which item you want to set it as complete: "))
+            todo_to_remove = todos[user_input_delete_index - 1].strip('\n')
             todos.pop(user_input_delete_index - 1)
             with open('todos.txt','w') as file:
                 file.writelines(todos)
+            message = f"Todo: '{todo_to_remove}' removed this item from the list"
+            print(message)
         case "exit":
             break
 
