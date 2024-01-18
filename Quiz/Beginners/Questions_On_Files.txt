@@ -152,3 +152,24 @@ Option 1: Yes it will throw
 
 Option 2: No, without mode this will work. (Correct Answer)
 ----------------------------------------------------------------------------------------
+Question 11: What will be the output of this program?
+
+Input: Hello Arav
+
+Program:
+with open("file.txt", 'r') as file:
+    print(file.read())
+    print(len(file.read()))
+
+Option 1:
+Hello Arav
+10
+
+Option 2: (Correct Answer)
+Expected Output:
+Hello Arav
+0
+
+Option 3: Throws an error
+----------------------------------------------------------------------------------------
+
