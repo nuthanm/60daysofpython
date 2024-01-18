@@ -136,6 +136,19 @@ Approach 2:
 file = open('essay.txt','r')
 print(file.read().title())
 ----------------------------------------------------------------------------------------
+Question 9: what is the default mode for open function?
 
+Option 1: read ('r') - (Correct Answer)
 
+Option 2: write ('w')
+----------------------------------------------------------------------------------------
+Question 10: Whether the following program gives an error?
 
+Input: Program
+with open('todos.txt') as file:
+  print(file.readlines)
+
+Option 1: Yes it will throw
+
+Option 2: No, without mode this will work. (Correct Answer)
+----------------------------------------------------------------------------------------
